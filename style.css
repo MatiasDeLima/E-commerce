@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.box-shadow{
+    width: 100%;
+    box-shadow: 0 8px 6px -6px rgb(206, 199, 199);
+    position: fixed;
+    background: #fff;
+    z-index: 1;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;         
+    margin: 0 8%;
+    background: #fff;
+}
+
+.navbar .shop{
+    cursor: pointer;
+}
+
+.navbar .logo{
+    cursor: pointer;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+nav{
+    margin-left: 630px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 72px;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: #DD6464;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+}
+
+.col-1{
+    margin: 0 8%;
+}
+
+.col-1, .col-2{
+    margin-top: 4%;
+}
+
+.col-1 p{
+    max-width: 400px;
+    margin-top: 20px;
+    color: #858585;
+    font-size: 15;
+}
+
+button{
+    background: #DD6464;
+    border-radius: 40px;
+    padding: 10px 45px;
+    border: none;
+    color: #fff;
+    margin-top: 35px;
+    cursor: pointer;
+    display: block;
+}
+
+.col-2 img{
+    width: 350px;
+    margin-left: 17%;
+}
+
+/*-------------------*/
+
+.categories{
+    width: 100%;
+    background: rgba(221, 100, 100, 0.34);
+    height: 500px;
+    left: 0px;
+    top: 700px;
+    position: absolute;
+}
+
+.coluna{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 70px;
+}
+
+.coluna .col-3{
+    padding: 0 20px;
+}
+
+/*----------------------Produtos em alta--------------------------*/
+.productes{
+    margin-top: 50%;
+    
+}
+
+.productes h2{
+    text-align: center;
+    margin: 100px 0;
+}
+
+.productes h2::after{
+    content: '';
+    width: 130px;
+    height: 4px;
+    background: #DD6464;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 12px;
+}
+
+.row-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+
+.col-4{
+    padding: 0 10px;
+}
+
+.col-4 i{
+    color: #DD6464;
+}
+
+/*------------------------Lista de Produtos------------------------*/
+
+.produtos-items{
+    margin-left: 70px;
+    margin-right: 70px;    
+}
+
+.interno-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap:60px 20px;
+    margin-top: 10%;   
+}
+
+.col-5 img{
+    width: 100%;
+}
+
+.col-5 i{
+    color: #DD6464;
+}
+
+.productes-2 h2{
+    text-align: center;
+    margin-top: 8%;
+}
+
+.productes-2 h2::after{
+    content: '';
+    width: 130px;
+    height: 4px;
+    background: #DD6464;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 12px;
+}
+
+/*---------------------------Banner Relogio-------------------------*/
+
+.container-banner{
+    width: 100%;
+    background: rgba(221, 100, 100, 0.34);
+    height: 340px;
+    margin-top: 8%;
+    margin-bottom:8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    gap: 60px;
+}
+
+.items img{
+    width: 250px;
+}
+
+.col-10{
+    text-align: center;
+}
+
+.items .col-10 p{
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+.items .col-10 a{
+    padding: 10px 50px;
+    background: #DD6464;
+    border-radius: 30px;
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.items .col-10 h2{
+    margin-bottom: 30px;
+}
+
+/*------------Comentarios de clientes------------*/
+
+.comentaris{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+
+.comentaris h2::after{
+    content: '';
+    width: 130px;
+    height: 4px;
+    background: #DD6464;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 12px;
+}
+
+.cards-comentes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cards-comentes .col-11{
+    width: 359px;
+    height: 358px;
+    background: #FFFFFF;
+    box-shadow: 5px 4px 100px rgba(165, 170, 185, 0.38);
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.col-11 i{
+    font-size:90px;
+    color: orange;
+    margin-top: 10px;
+}
+
+.col-11 p{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+    color: #858585;
+}
+
+.col-11 img{
+    margin-top: 20px;
+}
+
+/*---------------------Footer-----------------------*/
+
+.footer{
+    background: #121212;
+    margin-top: 10%;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-footer{
+    max-width: 1170px;
+    margin: auto; 
+}
+
+.row{
+    display: flex;
+    gap: 100px;
+}
+
+ul li a {
+    color: #fff;
+}
+
+.footer-col h4{
+    color: #fff;
+}
+
+.redes-socias i{
+    color: #fff;
+    padding: 0 10px;
+}
+
+.footer-col-1 h4{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.autor {
+    margin-right: 20px;
+    margin-top: 15%;
+   
+}
+
+.autor p{
+    color: #fff;
+    font-size: 12px;
+}
